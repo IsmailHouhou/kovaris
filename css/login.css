@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+
+.login-wrapper {
+    margin: 0 auto;
+    height: 100%;
+    background-color: #ffebeb;
+
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.login-wrapper > a {
+    margin: 10px 0 0 10px;
+    height: 1em;
+}
+
+.login-wrapper i {
+    font-size: 3em;
+    color: #4cd3c2;
+}
+
+.login-wrapper i:hover {
+    color: #79dbd1;
+}
+
+.login-container {
+    width: 80%;
+    margin: auto auto;
+    height: 50%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.logo {
+    flex-basis: 50%;
+    height: 200px;
+}
+
+.logo img {
+    width: auto;
+    height: 100%;
+}
+
+.vl {
+    border-right: 1px solid #4cd3c2;
+}
+
+.login-form {
+    flex-basis: 50%;
+    height: 80%;
+}
+
+.login-form form {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.login-form input {
+    outline: none;
+}
+
+.login-form input:not([type=submit]) {
+    height: 45px;
+    width: 260px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    background-color: transparent;
+    color: #4cd3c2;
+    border: 1px solid #4cd3c2;
+    border-radius: 5px;
+    caret-color: #4cd3c2;
+}
+
+.login-form input:not([type=submit]):focus {
+    border: 2px solid #4cd3c2;
+}
+
+.login-form input:not([type=submit])::placeholder {
+    color: #4cd3c2;
+}
+
+.login-form input[type=submit] {
+    width: 260px;
+    height: 45px;
+    font-weight: bold;
+    background-color: #4cd3c2;
+    color: #f4f4f4;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    letter-spacing: 0.05em;
+}
+
+.login-form input[type=submit]:hover {
+    background-color: #79dbd1;
+}
+
+
+.login-form a, .login-form p {
+    color: #9BA7A5;
+}

@@ -1,0 +1,197 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+}
+
+
+
+/*HEADER*/
+nav {
+    text-transform: uppercase;
+    height: 70px;
+    background: #ffebeb;
+	color: #4cd3c2;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+#navbarSupportedContent {
+    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+#menu1 {
+	margin: 0 22% 0 auto;
+}
+
+#menu3 {
+	width: 15%;
+}
+
+.nav-link {
+    color: #393e59;
+	padding: 0;
+	font-weight: 500;
+}
+
+.nav-link:hover {
+	color: #4cd3c2;
+}
+
+.nav-item {
+    margin-right: 20px!important;
+}
+
+.active {
+	border-bottom: 3px solid #4cd3c2;
+	color: #4cd3c2;
+}
+
+.header-color {
+	color: #393e59;
+}
+
+.dropdown-menu {
+	min-width: 100px;
+}
+
+.show .nav-link{
+	color: #4cd3c2;
+}
+
+.dropdown-item {
+	color: #393e59;
+	padding: 0 0 0 10px;
+	font-weight: 500;
+}
+
+.dropdown-item:hover {
+	color: #fe346e;
+}
+
+
+
+
+
+
+/*SHOPPING CART*/
+.shopping-cart {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.shopping-cart table {
+	width: 100%;
+}
+
+tr {
+	text-align: left;
+}
+
+.tbl-cart th {
+    font-weight: normal;
+    padding: 30px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.shopping-cart table td {
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-image {
+    width: 100px;
+}
+
+.cart-item-image {
+	width: 70px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.price {
+    color: #999;
+}
+
+.btnRemoveAction {
+	text-align: center;
+}
+
+.btnRemoveAction i {
+	color: #fe346e;
+	font-size: 1.5em;
+}
+
+.subtotal {
+    text-align: right;
+    padding: 40px 0;
+}
+
+.subtotal .price {
+    font-size: 18px;
+}
+
+.text {
+    padding-right: 40px;
+    font-size: 18px;
+}
+
+.no-records {
+	text-align: center;
+	clear: both;
+	margin: 38px 0px;
+}
+
+.buttons {
+    width: 50%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons form{
+    display: inline;
+}
+
+#btnEmpty {
+	padding: 10px 24px;
+	margin: 10px 0px;
+	font-weight: bold;
+	background-color: #fe346e;
+	color: white;
+	border: 2px solid #fe346e;
+	border-radius: 8px;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+}
+
+#btnEmpty:hover {
+	background-color: white;
+	color: #fe346e;
+}
+
+.checkout {
+	padding: 10px 24px;
+	margin: 10px 0px;
+	font-weight: bold;
+	background-color: #4cd3c2;
+	color: white;
+	border: 2px solid #4cd3c2;
+	border-radius: 8px;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.checkout:hover {
+    background-color: white;
+    color: #4cd3c2;
+}

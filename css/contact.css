@@ -1,0 +1,118 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	text-align: center;
+}
+
+/*FORM*/
+.wrapper {
+	margin: 0 auto;
+	min-height: 100vh;
+	background-color: #ffebeb;
+
+	display: flex;
+	align-content: center;
+	align-items: flex-start;
+}
+
+.wrapper > a {
+    margin: 10px 0 0 10px;
+    height: 1em;
+}
+
+.wrapper i {
+    font-size: 3em;
+    color: #4cd3c2;
+}
+
+.wrapper i:hover {
+    color: #79dbd1;
+}
+
+.contact-container {
+	width: 80%;
+	margin: auto auto;
+	height: 50%;
+	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.logo {
+    flex-basis: 50%;
+    height: 200px;
+}
+
+.logo img {
+    width: auto;
+    height: 100%;
+}
+
+.vl {
+    border-right: 1px solid #4cd3c2;
+}
+
+.contact-form {
+	flex-basis: 50%;
+    height: 80%;
+}
+
+form {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+input{
+	width: 260px;
+	height: 45px;
+	margin-bottom: 20px;
+	outline: none;
+}
+
+.holder {
+	background-color: transparent;
+	border: 1px solid #4cd3c2;
+	caret-color: #4cd3c2;
+	color: #4cd3c2;
+	outline: none;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+.holder:focus {
+	border: 2px solid #79dbd1;
+}
+
+.holder::placeholder {
+	color: #4cd3c2;
+}
+
+textarea {
+	width: 260px;
+	height: 100px;
+	margin-bottom: 40px;
+	resize: none;
+}
+
+input[type="submit"] {
+	background-color: #4cd3c2;
+	color: #f4f4f4;
+	border: none;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	font-weight: 500;
+}
+
+input[type="submit"]:hover {
+	background-color: #79dbd1;
+}

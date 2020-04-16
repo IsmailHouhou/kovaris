@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+
+.register-wrapper {
+    margin: 0 auto;
+    height: 100%;
+    background-color: #ffebeb;
+
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.register-wrapper > a {
+    margin: 10px 0 0 10px;
+    height: 1em;
+}
+
+.register-wrapper i {
+    font-size: 3em;
+    color: #4cd3c2;
+}
+
+.register-wrapper i:hover {
+    color: #79dbd1;
+}
+
+.register-container {
+    width: 80%;
+    margin: auto auto;
+    height: 50%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.logo {
+    flex-basis: 50%;
+    height: 200px;
+}
+
+.logo img {
+    width: auto;
+    height: 100%;
+}
+
+.vl {
+    border-right: 1px solid #4cd3c2;
+}
+
+.register-form {
+    flex-basis: 50%;
+    height: 100%;
+}
+
+.register-form form {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.register-form input {
+    outline: none;
+}
+
+.register-form input:not([type=submit]) {
+    height: 45px;
+    width: 260px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    background-color: transparent;
+    color: #4cd3c2;
+    border: 1px solid #4cd3c2;
+    border-radius: 5px;
+    caret-color: #4cd3c2;
+}
+
+.register-form input:not([type=submit]):focus {
+    border: 2px solid #4cd3c2;
+}
+
+.register-form input:not([type=submit])::placeholder {
+    color: #4cd3c2;
+}
+
+.register-form input[type=submit] {
+    width: 260px;
+    height: 45px;
+    font-weight: bold;
+    background-color: #4cd3c2;
+    color: #f4f4f4;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 0.05em;
+}
+
+.register-form input[type=submit]:hover {
+    background-color: #79dbd1;
+}
+
+.register-form a, .register-form p {
+    color: #9BA7A5;
+}
