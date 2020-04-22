@@ -8,8 +8,8 @@
             </div>
 			<div class="item">
 				<h5>INFO</h5>
+				<a href="../rapportKovaris.pdf" download>Rapport du site</a>
 				<a href="#">Information</a>
-				<a href="#">Contact us</a>
 				<a href="#">Privacy Policy</a>
 				<a href="#">terms and conditions</a>
 			</div>
